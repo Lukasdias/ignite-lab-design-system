@@ -8,7 +8,7 @@ export function Button({ ...props }: ButtonModel) {
         <Comp
             {...props}
             className={clsx(
-                'text-white flex w-full items-center justify-center rounded-xs bg-cyan-500 py-4 px-3 text-sm  ring-gray-100  transition-all duration-200 hover:bg-cyan-300 focus:ring-2',
+                'flex w-full items-center justify-center rounded-xs bg-cyan-500 py-4 px-3 text-sm text-black  ring-gray-100  transition-all duration-200 hover:bg-cyan-300 focus:ring-2',
                 {}
             )}
         >

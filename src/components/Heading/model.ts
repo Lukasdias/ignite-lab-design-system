@@ -1,9 +1,8 @@
 import { ReactNode } from 'react'
-
-type SizeVariants = 'lg' | 'xl' | '2xl'
+import { HeadingSizeVariants } from '@utils/tokens'
 
 export interface HeadingModel {
-    size?: SizeVariants
+    size?: HeadingSizeVariants
     children: ReactNode
     asChild?: boolean
 }

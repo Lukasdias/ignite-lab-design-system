@@ -1,7 +1,7 @@
-type SizeVariants = 'sm' | 'md' | 'lg'
+import { TextSizeVariants } from '@utils/tokens'
 
 export interface TextModel {
-    size?: SizeVariants
+    size?: TextSizeVariants
     children: React.ReactNode
     asChild?: boolean
 }

@@ -24,7 +24,9 @@ export const Checkbox = forwardRef<CheckboxRefModel, CheckboxModel>(
                 <CheckboxPrimitive.Indicator className="" asChild>
                     <Check
                         weight="bold"
-                        className="h-5 w-5 text-cyan-500 transition-colors duration-200"
+                        className={
+                            'h-5 w-5 text-cyan-500 transition-colors duration-200'
+                        }
                     />
                 </CheckboxPrimitive.Indicator>
             </CheckboxPrimitive.Root>
