@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fontsource/inter": "^4.5.14",
+    "@radix-ui/react-checkbox": "^1.0.0",
     "@radix-ui/react-slot": "^1.0.0",
     "clsx": "^1.2.1",
     "jotai": "^1.8.5",
