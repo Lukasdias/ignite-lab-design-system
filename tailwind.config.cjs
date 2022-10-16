@@ -21,7 +21,7 @@ module.exports = {
             '2xl': '2rem',
         },
         fontFamily: {
-            inter: 'Inter',
+            sans: 'Inter, sans-serif',
         },
         borderRadius: {
             none: '0',
